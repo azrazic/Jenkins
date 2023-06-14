@@ -1,4 +1,4 @@
-pipeline { 
+pipeline {
     
 agent any
 
@@ -7,19 +7,19 @@ agent any
  stage('Build') {
            
  steps {
-                echo 'Zdravo'
+                echo 'Hello World'
             }
         }
  stage('Test') {
            
  steps {
-                echo 'Zdravo'
+                echo 'Hello World'
             }
         }
  stage('Deploy') {
            
  steps {
-                echo 'Zdravo'
+                echo 'Hello World'
             }
         }
    
