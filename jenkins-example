@@ -2,23 +2,23 @@ pipeline {
     agent any
 
     stages {
-        stage('checkout') {
+        stage('Build') {
             steps {
-                echo 'Jenkins zatim povremeno provjerava ima li promjena u repozitoriju.Ako otkrije bilo kakve nove obveze ili ažuriranja, automatski pokreće izgradnju projekta.'
+                echo 'doing build stuff...'
             }
         }
-     stage ('build')
+     stage ('Test')
 { 
      steps
 {
-echo 'Dobrodosli '
+echo 'doing test stuff... '
 }
 }
-stage ('deploy')
+stage ('Deliver')
 { 
      steps
 {
-echo 'u moj prvi Jenkins primjer '
+echo 'doing delivery stuff...'
 }
    }
 
