@@ -7,19 +7,19 @@ agent any
  stage('Build') {
            
  steps {
-                echo 'Hello World'
+                echo 'Zdravo'
             }
         }
  stage('Test') {
            
  steps {
-                echo 'Hello World'
+                echo 'Zdravo'
             }
         }
  stage('Deploy') {
            
  steps {
-                echo 'Hello World'
+                echo 'Zdravo'
             }
         }
    
