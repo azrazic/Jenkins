@@ -4,21 +4,21 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                echo 'Hello World!'
+                echo 'Zdravo!'
             }
         }
      stage ('build')
 { 
      steps
 {
-echo 'hi there '
+echo 'Dobrodosli '
 }
 }
 stage ('deploy')
 { 
      steps
 {
-echo 'hi hello '
+echo 'u moj prvi Jenkins primjer '
 }
    }
 
