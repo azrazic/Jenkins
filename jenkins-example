@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                echo 'Jenkins zatim povremeno provjerava ima li promjena u repozitoriju.
-                Ako otkrije bilo kakve nove obveze ili ažuriranja, automatski pokreće izgradnju projekta.'
+                echo 'Jenkins zatim povremeno provjerava ima li promjena u repozitoriju.'
             }
         }
      stage ('build')
