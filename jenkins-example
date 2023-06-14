@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                echo 'zdravo'
+                echo 'Zdravo!'
             }
         }
      stage ('build')
